@@ -98,7 +98,7 @@ namespace AprendeJugando
 
         private void ReproducirSonidoHover()
         {
-            SonidoManager.Instance.ReproducirSonidoHover(@"D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Sounds\pasarporEncima.mp3");
+            SonidoManager.Instance.ReproducirSonidoHover("Sounds/pasarporEncima.mp3");
 
         }
 

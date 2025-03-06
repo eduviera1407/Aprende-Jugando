@@ -39,7 +39,7 @@ namespace AprendeJugando
             else
             {
 
-                NotificacionHandler.MostrarNotificacion("Respuesta incorrecta, intenta de nuevo.", "Validación de Padre",2000);
+                NotificacionHandler.MostrarNotificacion("Respuesta incorrecta, intenta de nuevo. Validación de Padre",2000);
             }
         }
 
@@ -53,7 +53,7 @@ namespace AprendeJugando
 
             if (padre != null && padre.Contrasena == ContrasenaIngresada)
             {
-                NotificacionHandler.MostrarNotificacion($"¡Bienvenido, {padre.NombreNino}!", "Acceso exitoso", 3000);
+                NotificacionHandler.MostrarNotificacion($"¡Bienvenido, {padre.NombreNino}! Acceso exitoso", 3000);
 
                 this.DialogResult = true;
                 this.Close();

@@ -6,7 +6,7 @@
     xmlns:wpfGif="http://wpfanimatedgif.codeplex.com"
     Title="Aprende Jugando" Height="1080" Width="1920"
     WindowState="Maximized" WindowStyle="None" Topmost="True"
-    Icon="D:\CLASES\PROYECTO DAM\Prueba2\WpfApp1\Images\LOGO.png"
+    Icon="Images\LOGO.png"
     Loaded="Window_Loaded">
     <Window.Resources>
         <Storyboard x:Key="Flotar">
@@ -53,11 +53,11 @@
         </Canvas.LayoutTransform>
 
         <Canvas.Background>
-            <ImageBrush ImageSource="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\fondo.jpg"/>
+            <ImageBrush ImageSource="Images/Imagenes/fondo.jpg"/>
         </Canvas.Background>
 
         <Image x:Name="personajeSonriente" Height="308" Canvas.Left="1019" Canvas.Top="703" Width="460"
-       Source="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\Personaje\alegre.png"/>
+       Source="Images\Imagenes\Personaje\alegre.png"/>
 
 
         <Image x:Name="logo" Height="375" Canvas.Left="579" Canvas.Top="79" Width="762">
@@ -66,7 +66,7 @@
             </Image.RenderTransform>
 
             <Image.Source>
-                <BitmapImage UriSource="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\LOGO.png"/>
+                <BitmapImage UriSource="Images\LOGO.png"/>
             </Image.Source>
         </Image>
 
@@ -81,7 +81,7 @@
                         <Setter.Value>
                             <ControlTemplate TargetType="Button">
                                 <Grid>
-                                    <Image Source="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\botonIniciar.png"/>
+                                    <Image Source="Images\Imagenes\botonIniciar.png"/>
                                 </Grid>
                             </ControlTemplate>
                         </Setter.Value>
@@ -108,7 +108,7 @@
                         <Setter.Value>
                             <ControlTemplate TargetType="Button">
                                 <Grid>
-                                    <Image Source="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\ajustesBoton.png"/>
+                                    <Image Source="Images\Imagenes\ajustesBoton.png"/>
                                 </Grid>
                             </ControlTemplate>
                         </Setter.Value>
@@ -134,7 +134,7 @@
                         <Setter.Value>
                             <ControlTemplate TargetType="Button">
                                 <Grid>
-                                    <Image Source="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\botonSalir.png"/>
+                                    <Image Source="Images\Imagenes\botonSalir.png"/>
                                 </Grid>
                             </ControlTemplate>
                         </Setter.Value>

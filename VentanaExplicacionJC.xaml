@@ -10,7 +10,7 @@
     <Grid>
         <!-- Fondo -->
         <Grid.Background>
-            <ImageBrush ImageSource="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\fondoSinArboles.jpg"
+            <ImageBrush ImageSource="Images\Imagenes\fondoSinArboles.jpg"
                         Stretch="Fill"/>
         </Grid.Background>
 
@@ -21,7 +21,7 @@
             <Image Width="974" Height="809"
            HorizontalAlignment="Left" 
            VerticalAlignment="Top"
-           Source="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\ExplicacionJuegos.png"
+           Source="Images\Imagenes\ExplicacionJuegos.png"
            Stretch="Uniform" 
            Margin="81,-22,0,0"/>
 
@@ -33,7 +33,7 @@
                Height="474" 
                Width="553" 
                FontSize="25" 
-               FontFamily="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Assets\#Lazydog" TextAlignment="Center"><Run FontSize="30" Text="¡Juego de Memoria!"/><LineBreak/><LineBreak/><Run Text="¡Diviértete encontrando las parejas de cartas! 🤩"/><LineBreak/><Run Text="Toca una carta para verla."/><LineBreak/><Run Text="Luego, toca otra y mira si son iguales."/><LineBreak/><LineBreak/><Run Text="- Nivel 1: Puedes voltear 2 cartas cada vez."/><LineBreak/><Run Text="- Nivel 2: Puedes voltear 3 cartas cada vez."/><LineBreak/><LineBreak/><Run Text="Si son iguales, ¡las ganas! 🎉"/><LineBreak/><Run Text="Si no, se voltean de nuevo."/><LineBreak/><Run Text="🧠 ¡Intenta recordar dónde están las cartas y gana muchos puntos!"/><LineBreak/><Run Text="💡 ¡Juega, aprende y diviértete! 🚀✨"/></TextBlock>
+               FontFamily="Assets\#Lazydog" TextAlignment="Center"><Run FontSize="30" Text="¡Juego de Memoria!"/><LineBreak/><LineBreak/><Run Text="¡Diviértete encontrando las parejas de cartas! 🤩"/><LineBreak/><Run Text="Toca una carta para verla."/><LineBreak/><Run Text="Luego, toca otra y mira si son iguales."/><LineBreak/><LineBreak/><Run Text="- Nivel 1: Puedes voltear 2 cartas cada vez."/><LineBreak/><Run Text="- Nivel 2: Puedes voltear 3 cartas cada vez."/><LineBreak/><LineBreak/><Run Text="Si son iguales, ¡las ganas! 🎉"/><LineBreak/><Run Text="Si no, se voltean de nuevo."/><LineBreak/><Run Text="🧠 ¡Intenta recordar dónde están las cartas y gana muchos puntos!"/><LineBreak/><Run Text="💡 ¡Juega, aprende y diviértete! 🚀✨"/></TextBlock>
             <Button Width="264" Height="189" Background="Transparent" BorderThickness="0"
               HorizontalAlignment="Left" VerticalAlignment="Top"
               ToolTip="Volver a la pantalla principal" Click="BtnVolver_Click"
@@ -41,7 +41,7 @@
                 <Button.Template>
                     <ControlTemplate TargetType="Button">
                         <Grid>
-                            <Image Source="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\botonEntendido.png" Margin="4,0,13,0"/>
+                            <Image Source="AprendeJugando\Images\Imagenes\botonEntendido.png" Margin="4,0,13,0"/>
                         </Grid>
                     </ControlTemplate>
                 </Button.Template>
@@ -52,7 +52,7 @@
         <Image x:Name="personajeSonriente" Height="296" Width="274"
                HorizontalAlignment="Right" VerticalAlignment="Bottom"
                Margin="0,0,164,64"
-               Source="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\Personaje\lenguafuera.png"/>
+               Source="Images\Imagenes\Personaje\lenguafuera.png"/>
 
     </Grid>
 </Window>

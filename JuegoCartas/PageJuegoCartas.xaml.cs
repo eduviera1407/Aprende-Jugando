@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -13,10 +14,10 @@ namespace AprendeJugando
     public partial class PageJuegoCartas : Page
     {
         private int cartasClicadas = 0;
-        private int puntos = 0;
+        private int estrellas = 0;
         private int contadorPuntos = 0;
-        private int nivel = 1; // Nivel inicial
-        private const int PUNTOS_PARA_NIVEL_2 = 5; // Aciertos para subir de nivel
+        private int nivel = 1; 
+        private const int PUNTOS_PARA_NIVEL_2 =2 ; 
         private const int CARTAS_NIVEL_1 = 4;
         private const int CARTAS_NIVEL_2 = 6;
 
@@ -24,6 +25,8 @@ namespace AprendeJugando
         private List<Button> botonesCartas = new List<Button>();
         private List<Button> cartasSeleccionadas = new List<Button>();
         private List<string> imagenesSeleccionadas = new List<string>();
+
+        public Action<object, object> Closing { get; private set; }
 
         public PageJuegoCartas()
         {
@@ -71,7 +74,7 @@ namespace AprendeJugando
             }
         }
 
-        private void CompararCartas()
+        private async Task CompararCartas()
         {
             try
             {
@@ -79,29 +82,42 @@ namespace AprendeJugando
 
                 if (todasIguales)
                 {
-                    puntos++;
+                    estrellas++;
                     contadorPuntos++;
 
-                    int padreId = SesionActual.PadreId; // Asegúrate de que este valor se asigna correctamente al iniciar sesión.
-                    string tipoJuego = "Cartas"; // Tipo de juego
-                    string nombreNino = SesionActual.NombreNino; // Nombre del niño
+                    int padreId = SesionActual.PadreId; 
+                    string tipoJuego = "Cartas"; 
+                    string nombreNino = SesionActual.NombreNino; 
                     LiteDbService lite = new LiteDbService();
                     lite.RegistrarAcierto(padreId, nombreNino, tipoJuego, nivel);
 
+                      await NotificacionHandler.MostrarNotificacion("¡Feliciades has ganado una estrella!\nTotal de estrellas: " + estrellas, 1000);
+              
 
-                    NotificacionHandler.MostrarNotificacion("¡Punto! Total de puntos: " + puntos);
 
                     if (contadorPuntos >= PUNTOS_PARA_NIVEL_2 && nivel == 1)
                     {
                         nivel++;
 
-                        NotificacionHandler.MostrarNotificacion("¡Felicidades! Has avanzado al nivel 2. Ahora hay más cartas y debes encontrar 3 iguales.");
+                        await NotificacionHandler.MostrarNotificacion(
+                            "¡Enhorabuena! Has avanzado al nivel 2." +
+                            "Ahora hay más cartas y " +
+                            "debes encontrar 3 iguales.",  // mensajeInicial
+                            3000  // retrasoMs en milisegundos
+
+                        );
+           
+
                     }
 
                     CargarNuevasCartas();
                 }
                 else
                 {
+
+
+                    await NotificacionHandler.MostrarNotificacion("¡Vuelve a intentarlo!", 1000);
+
                     RevertirCartas();
                 }
             }
@@ -113,14 +129,10 @@ namespace AprendeJugando
 
         private void configurarPosicionCartas()
         {
-            Canvas.SetLeft(CartaVacia1, 402);
-            Canvas.SetTop(CartaVacia1, 136);
-            Canvas.SetLeft(CartaVacia2, 402);
-            Canvas.SetTop(CartaVacia2, 545);
-            Canvas.SetLeft(CartaVacia3, 825);
-            Canvas.SetTop(CartaVacia3, 136);
-            Canvas.SetLeft(CartaVacia4, 825);
-            Canvas.SetTop(CartaVacia4, 545);
+            Canvas.SetLeft(CartaVacia1, 402); Canvas.SetTop(CartaVacia1, 136);
+            Canvas.SetLeft(CartaVacia2, 402); Canvas.SetTop(CartaVacia2, 545);
+            Canvas.SetLeft(CartaVacia3, 825);  Canvas.SetTop(CartaVacia3, 136);
+            Canvas.SetLeft(CartaVacia4, 825); Canvas.SetTop(CartaVacia4, 545);
         }
         private void CargarNuevasCartas()
         {
@@ -165,6 +177,12 @@ namespace AprendeJugando
             ReproducirSonidoHover();
         }
 
+        private void sonidoDePunto(string ruta)
+        {
+            // Reproducir el sonido de explicación
+            SonidoManager.Instance.ReproducirSonidoDeExplicacion(ruta);
+        }
+
         private void RevertirCartas()
         {
             var timer = new System.Windows.Threading.DispatcherTimer();
@@ -186,7 +204,7 @@ namespace AprendeJugando
                 timer.Stop();
             };
 
-            timer.Interval = TimeSpan.FromSeconds(0.35);
+            timer.Interval = TimeSpan.FromSeconds(1);
             timer.Start();
         }
     }

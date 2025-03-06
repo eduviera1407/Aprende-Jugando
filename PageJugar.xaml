@@ -10,10 +10,10 @@
 
     <Canvas x:Name="fondo">
         <Canvas.Background>
-            <ImageBrush ImageSource="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\fondoSinArboles.jpg"/>
+            <ImageBrush ImageSource="Images\Imagenes\fondoSinArboles.jpg"/>
         </Canvas.Background>
         <Image x:Name="personajeSonriente" Height="449" Canvas.Left="1181" Canvas.Top="587" Width="588"
-           Source="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\Personaje\alegre.png" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Center" >
+           Source="Images\Imagenes\Personaje\alegre.png" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Center" >
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -43,7 +43,7 @@
                                     </Grid.RenderTransform>
 
                                     <!-- Imagen de fondo -->
-                                    <Image Source="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\botonVacio.png"
+                                    <Image Source="Images\Imagenes\botonVacio.png"
                                    Width="150" Height="150" HorizontalAlignment="Left" VerticalAlignment="Top"
                                    Margin="-18,-54,0,0" RenderTransformOrigin="0.5,0.5">
                                         <Image.RenderTransform>
@@ -104,7 +104,7 @@
                             <ControlTemplate TargetType="Button">
                                 <Grid RenderTransformOrigin="0.5,0.5">
                                     <!-- Imagen de fondo -->
-                                    <Image Source="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\botonVacio.png"
+                                    <Image Source="Images\Imagenes\botonVacio.png"
                                           Width="270" Height="212"
                                           HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-24,-46,0,0" RenderTransformOrigin="0.5,0.5">
                                         <Image.RenderTransform>
@@ -163,7 +163,7 @@
             <!-- Contenedor para la imagen y el icono -->
             <Grid>
                 <!-- Imagen de fondo -->
-                <Image Source="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\botonVacio.png"
+                <Image Source="Images\Imagenes\botonVacio.png"
                Width="150" Height="150"
                HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-15,-31,0,0" RenderTransformOrigin="0.5,0.5">
                     <Image.RenderTransform>
@@ -191,7 +191,7 @@
                 </materialDesign:PackIcon>
             </Grid>
         </Button>
-        <Image Source="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\ImagenJuegos.png" Height="918" Width="1103" Canvas.Left="491" HorizontalAlignment="Left" Canvas.Top="-234" VerticalAlignment="Top"/>
+        <Image Source="Images\Imagenes\ImagenJuegos.png" Height="918" Width="1103" Canvas.Left="491" HorizontalAlignment="Left" Canvas.Top="-234" VerticalAlignment="Top"/>
         <Button x:Name="BtnLoginPadre" Width="264" Height="222"
         Background="Transparent" BorderBrush="Transparent" BorderThickness="2"
         Canvas.Left="1474" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Top="-72" RenderTransformOrigin="0.5,0.5" Click="BtnLoginPadre_Click" MouseEnter="BtnHover">
@@ -212,7 +212,7 @@
                                     </Grid.RenderTransform>
 
                                     <!-- Imagen de fondo -->
-                                    <Image Source="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\botonParaPadres.png"
+                                    <Image Source="Images\Imagenes\botonParaPadres.png"
                                    HorizontalAlignment="Left" VerticalAlignment="Top" Height="261" Width="271"
                                    RenderTransformOrigin="0.5,0.5">
                                         <Image.RenderTransform>
@@ -265,7 +265,7 @@
                                     <ControlTemplate TargetType="Button">
                                         <Grid Margin="0,0,45,24">
                                             <!-- Imagen para el fondo del botón de cartas de animales -->
-                                            <Image Source="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\cartasAnimales.jpg" Margin="46,13,126,63"/>
+                                            <Image Source="Images\Imagenes\cartasAnimales.jpg" Margin="46,13,126,63"/>
                                         </Grid>
                                     </ControlTemplate>
                                 </Setter.Value>

@@ -31,7 +31,7 @@ namespace AprendeJugando
         public void vozenOff()
         {
 
-             SonidoManager.Instance.ReproducirSonidoDeExplicacion(@"D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Sounds\vozExplicacionJC.mp3");
+             SonidoManager.Instance.ReproducirSonidoDeExplicacion("Sounds/vozExplicacionJC.mp3");
             //parar el sonido si se cierra la ventana
             this.Closing += (sender, e) =>
             {

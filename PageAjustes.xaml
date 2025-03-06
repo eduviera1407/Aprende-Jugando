@@ -11,7 +11,7 @@
 
     <Canvas x:Name="fondo">
         <Canvas.Background>
-            <ImageBrush ImageSource="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\fondo.jpg"/>
+            <ImageBrush ImageSource="Images\Imagenes\fondo.jpg"/>
         </Canvas.Background>
 
         <Button Width="187" Height="173" Background="Transparent" BorderThickness="0"
@@ -33,7 +33,7 @@
                             <ControlTemplate TargetType="Button">
                                 <Grid RenderTransformOrigin="0.5,0.5">
                                     <!-- Imagen de fondo -->
-                                    <Image Source="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\botonVacio.png"
+                                    <Image Source="Images\Imagenes\botonVacio.png"
                                       Width="270" Height="212"
                                       HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-24,-46,0,0" RenderTransformOrigin="0.5,0.5">
                                         <Image.RenderTransform>

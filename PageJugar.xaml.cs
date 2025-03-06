@@ -40,7 +40,7 @@ namespace AprendeJugando
         {
             if (SesionActual.PadreAutenticado)
             {
-                NotificacionHandler.MostrarNotificacion("Ya has iniciado sesión \n como padre.");
+                NotificacionHandler.MostrarNotificacion("Ya has iniciado sesión \n como padre." );
                 return;
             }
 
@@ -112,17 +112,14 @@ namespace AprendeJugando
 
         private void Btn_JuegoMates_Click(object sender, RoutedEventArgs e)
         {
-            NotificacionHandler.MostrarNotificacion("Juego de Matemáticas", "En desarrollo...");
         }
 
         private void Btn_JuegoLengua_Click(object sender, RoutedEventArgs e)
         {
-            NotificacionHandler.MostrarNotificacion("Juego de Lengua en desarrollo...");
         }
 
         private void Btn_JuegoAnimales_Click(object sender, RoutedEventArgs e)
         {
-            NotificacionHandler.MostrarNotificacion("Juego de Animales en desarrollo...");
         }
 
         private void ScrollLeft_Click(object sender, RoutedEventArgs e)
@@ -137,7 +134,7 @@ namespace AprendeJugando
 
         private void BtnHover(object sender, MouseEventArgs e)
         {
-            SonidoManager.Instance.ReproducirSonidoHover(@"D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Sounds\pasarporEncima.mp3");
+            SonidoManager.Instance.ReproducirSonidoHover("Sounds/pasarporEncima.mp3");
         }
 
         private void MostrarProgreso_Click(object sender, RoutedEventArgs e)

@@ -13,11 +13,54 @@
     <None Remove="botonVacio.png" />
     <None Remove="ExplicacionJuegoCartas.png" />
     <None Remove="fondoSinArboles.jpg" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Images\Imagenes" />
-    <Folder Include="Sounds\" />
+    <None Remove="Images\botonIniciar.png" />
+    <None Remove="Images\botonVacio.png" />
+    <None Remove="Images\Cancel Action.png" />
+    <None Remove="Images\Imagenes\ajustesBoton.png" />
+    <None Remove="Images\Imagenes\botonEntendido.png" />
+    <None Remove="Images\Imagenes\botonIniciar.png" />
+    <None Remove="Images\Imagenes\botonParaPadres.png" />
+    <None Remove="Images\Imagenes\botonSalir.png" />
+    <None Remove="Images\Imagenes\botonVacio.png" />
+    <None Remove="Images\Imagenes\botonValidar.png" />
+    <None Remove="Images\Imagenes\cartasAnimales.jpg" />
+    <None Remove="Images\Imagenes\cartasAnimales.png" />
+    <None Remove="Images\Imagenes\Cartas\cartaVacia.png" />
+    <None Remove="Images\Imagenes\Cartas\chimpanze.png" />
+    <None Remove="Images\Imagenes\Cartas\cobra.png" />
+    <None Remove="Images\Imagenes\Cartas\cocodrilo.png" />
+    <None Remove="Images\Imagenes\Cartas\gorila.png" />
+    <None Remove="Images\Imagenes\Cartas\mono.png" />
+    <None Remove="Images\Imagenes\Cartas\orangutan.png" />
+    <None Remove="Images\Imagenes\Cartas\rana.png" />
+    <None Remove="Images\Imagenes\Cartas\serpiente.png" />
+    <None Remove="Images\Imagenes\ExplicacionJuegoCartas.png" />
+    <None Remove="Images\Imagenes\ExplicacionJuegos.png" />
+    <None Remove="Images\Imagenes\fondo.jpg" />
+    <None Remove="Images\Imagenes\fondoSinArboles.jpg" />
+    <None Remove="Images\Imagenes\ImagenJuegos.png" />
+    <None Remove="Images\Imagenes\imagenProgreso.png" />
+    <None Remove="Images\Imagenes\lengua.png" />
+    <None Remove="Images\Imagenes\matematicas.png" />
+    <None Remove="Images\Imagenes\Personaje\alegre.png" />
+    <None Remove="Images\Imagenes\Personaje\duda.png" />
+    <None Remove="Images\Imagenes\Personaje\enfado.png" />
+    <None Remove="Images\Imagenes\Personaje\lenguafuera.png" />
+    <None Remove="Images\Imagenes\Personaje\llorar.png" />
+    <None Remove="Images\Imagenes\Personaje\riendose.png" />
+    <None Remove="Images\Imagenes\preguntaSuma.png" />
+    <None Remove="Images\Imagenes\zoologia.png" />
+    <None Remove="Images\LOGO.png" />
+    <None Remove="Sounds\botonPresionado.mp3" />
+    <None Remove="Sounds\empate.mp3" />
+    <None Remove="Sounds\pasarporEncima.mp3" />
+    <None Remove="Sounds\sonidoCartas.mp3" />
+    <None Remove="Sounds\sonidoNivel2Cartas.wav" />
+    <None Remove="Sounds\sonidoPrincipal.wav" />
+    <None Remove="Sounds\sonidoPunto.wav" />
+    <None Remove="Sounds\victoria.m4a" />
+    <None Remove="Sounds\vozEstrella.wav" />
+    <None Remove="Sounds\vozExplicacionJC.mp3" />
   </ItemGroup>
 
   <ItemGroup>
@@ -30,6 +73,58 @@
     <Resource Include="botonVacio.png" />
     <Resource Include="ExplicacionJuegoCartas.png" />
     <Resource Include="fondoSinArboles.jpg" />
+    <Resource Include="Images\botonIniciar.png" />
+    <Resource Include="Images\botonVacio.png" />
+    <Resource Include="Images\Cancel Action.png" />
+    <Resource Include="Images\Imagenes\ajustesBoton.png" />
+    <Resource Include="Images\Imagenes\botonEntendido.png" />
+    <Resource Include="Images\Imagenes\botonIniciar.png" />
+    <Resource Include="Images\Imagenes\botonParaPadres.png" />
+    <Resource Include="Images\Imagenes\botonSalir.png" />
+    <Resource Include="Images\Imagenes\botonVacio.png" />
+    <Resource Include="Images\Imagenes\botonValidar.png" />
+    <Resource Include="Images\Imagenes\cartasAnimales.jpg" />
+    <Resource Include="Images\Imagenes\cartasAnimales.png" />
+    <Resource Include="Images\Imagenes\Cartas\cartaVacia.png" />
+    <Resource Include="Images\Imagenes\Cartas\chimpanze.png" />
+    <Resource Include="Images\Imagenes\Cartas\cobra.png" />
+    <Resource Include="Images\Imagenes\Cartas\cocodrilo.png" />
+    <Resource Include="Images\Imagenes\Cartas\gorila.png" />
+    <Resource Include="Images\Imagenes\Cartas\mono.png" />
+    <Resource Include="Images\Imagenes\Cartas\orangutan.png" />
+    <Resource Include="Images\Imagenes\Cartas\rana.png" />
+    <Resource Include="Images\Imagenes\Cartas\serpiente.png" />
+    <Resource Include="Images\Imagenes\ExplicacionJuegoCartas.png" />
+    <Resource Include="Images\Imagenes\ExplicacionJuegos.png" />
+    <Resource Include="Images\Imagenes\fondo.jpg" />
+    <Resource Include="Images\Imagenes\fondoSinArboles.jpg" />
+    <Resource Include="Images\Imagenes\ImagenJuegos.png" />
+    <Resource Include="Images\Imagenes\imagenProgreso.png" />
+    <Resource Include="Images\Imagenes\lengua.png" />
+    <Resource Include="Images\Imagenes\matematicas.png" />
+    <Resource Include="Images\Imagenes\Personaje\alegre.png" />
+    <Resource Include="Images\Imagenes\Personaje\duda.png" />
+    <Resource Include="Images\Imagenes\Personaje\enfado.png" />
+    <Resource Include="Images\Imagenes\Personaje\lenguafuera.png" />
+    <Resource Include="Images\Imagenes\Personaje\llorar.png" />
+    <Resource Include="Images\Imagenes\Personaje\riendose.png" />
+    <Resource Include="Images\Imagenes\preguntaSuma.png" />
+    <Resource Include="Images\Imagenes\zoologia.png" />
+    <Resource Include="Images\LOGO.png" />
+    <Content Include="Sounds\botonPresionado.mp3" />
+    <Content Include="Sounds\empate.mp3" />
+    <Content Include="Sounds\pasarporEncima.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\sonidoCartas.mp3" />
+    <Content Include="Sounds\sonidoNivel2Cartas.wav" />
+    <Content Include="Sounds\sonidoPrincipal.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\sonidoPunto.wav" />
+    <Content Include="Sounds\victoria.m4a" />
+    <Content Include="Sounds\vozEstrella.wav" />
+    <Resource Include="Sounds\vozExplicacionJC.mp3" />
   </ItemGroup>
 
 </Project>

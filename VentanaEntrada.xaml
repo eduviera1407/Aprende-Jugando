@@ -13,7 +13,7 @@
         <TextBlock x:Name="TextoPregunta" 
            HorizontalAlignment="Center" 
            VerticalAlignment="Top"
-           FontFamily="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Assets\#Lazydog" 
+           FontFamily="Assets\#Lazydog" 
            FontSize="35" 
            Foreground="#FFF4CA44" 
            Width="375" 
@@ -47,7 +47,7 @@
              BorderThickness="0"
              HorizontalAlignment="Center"
              VerticalAlignment="Center"
-             FontFamily="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Assets\#Lazydog"
+             FontFamily="Assets\#Lazydog"
              FontSize="25"
              Padding="5"
              Foreground="Black"
@@ -59,7 +59,7 @@
         <Button x:Name="BtnValidar" HorizontalAlignment="Center" VerticalAlignment="Top" Width="144" Height="118"
                 Click="BtnValidar_Click" Background="Transparent" BorderBrush="Transparent" Margin="0,292,0,0">
             <Button.Content>
-                <Image Source="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\botonValidar.png"
+                <Image Source="Images\Imagenes\botonValidar.png"
                        Width="143" Height="126"/>
             </Button.Content>
         </Button>
@@ -74,14 +74,14 @@
              Width="200"
              Height="40"
              FontSize="18"
-             FontFamily="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Assets\#Lazydog"
+             FontFamily="Assets\#Lazydog"
              Background="Transparent"
              BorderThickness="0"
              Padding="10,5"/>
             </Border>
 
             <TextBlock Text="Contraseña:" 
-           FontFamily="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Assets\#Lazydog" 
+           FontFamily="Assets\#Lazydog" 
            FontSize="20" 
            Margin="0,20,0,0" 
            Height="32" />
@@ -91,19 +91,19 @@
                  Width="200"
                  Height="40"
                  FontSize="18"
-                 FontFamily="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Assets\#Lazydog"
+                 FontFamily="Assets\#Lazydog"
                  Background="Transparent"
                  BorderThickness="0"
                  Padding="10,5"/>
             </Border>
-            <TextBlock Text="Nombre del Niño/a:" FontFamily="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Assets\#Lazydog" FontSize="20" Height="32"/>
+            <TextBlock Text="Nombre del Niño/a:" FontFamily="Assets\#Lazydog" FontSize="20" Height="32"/>
 
             <Border Width="200" Height="40" CornerRadius="20" Background="#FFF4CA44">
                 <TextBox x:Name="NameNino"
              Width="200"
              Height="40"
              FontSize="18"
-             FontFamily="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Assets\#Lazydog"
+             FontFamily="Assets\#Lazydog"
              Background="Transparent"
              BorderThickness="0"
              Padding="10,5"/>
@@ -112,7 +112,7 @@
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <Button x:Name="BtnRegistrar" Width="173" Height="145" Click="BtnRegistrar_Click" Foreground="Black" FontFamily="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Assets\#Lazydog" FontSize="20" Margin="0,0,0,50">
                     <Button.Background>
-                        <ImageBrush ImageSource="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\botonVacio.png"/>
+                        <ImageBrush ImageSource="Images\Imagenes\botonVacio.png"/>
                     </Button.Background>
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -120,7 +120,7 @@
                                 <Setter.Value>
                                     <ControlTemplate TargetType="{x:Type Button}">
                                         <Grid>
-                                            <Image Source="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\botonVacio.png" />
+                                            <Image Source="Images\Imagenes\botonVacio.png" />
                                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
                                         </Grid>
                                     </ControlTemplate>
@@ -136,7 +136,7 @@
                             </Style.Triggers>
                         </Style>
                     </Button.Style>
-                    <TextBlock Text="Registrar" FontFamily="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Assets\#Lazydog" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#FF0E0101" RenderTransformOrigin="0.5,0.5">
+                    <TextBlock Text="Registrar" FontFamily="Assets\#Lazydog" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#FF0E0101" RenderTransformOrigin="0.5,0.5">
                         <TextBlock.RenderTransform>
                             <TransformGroup>
                                 <ScaleTransform/>
@@ -149,7 +149,7 @@
                 </Button>
                 <Button x:Name="BtnLogin" Width="173" Height="145" Click="BtnLogin_Click" Foreground="Black" FontFamily="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Assets\#Lazydog" FontSize="20" Margin="0,0,0,50">
                     <Button.Background>
-                        <ImageBrush ImageSource="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\botonVacio.png"/>
+                        <ImageBrush ImageSource="Images\Imagenes\botonVacio.png"/>
                     </Button.Background>
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -157,7 +157,7 @@
                                 <Setter.Value>
                                     <ControlTemplate TargetType="{x:Type Button}">
                                         <Grid>
-                                            <Image Source="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\botonVacio.png" />
+                                            <Image Source="Images\Imagenes\botonVacio.png" />
                                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
                                         </Grid>
                                     </ControlTemplate>
@@ -173,7 +173,7 @@
                             </Style.Triggers>
                         </Style>
                     </Button.Style>
-                    <TextBlock Text="Ingresar" FontFamily="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Assets\#Lazydog" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#FF0E0101" RenderTransformOrigin="0.5,0.5">
+                    <TextBlock Text="Ingresar" FontFamily="Assets\#Lazydog" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#FF0E0101" RenderTransformOrigin="0.5,0.5">
                         <TextBlock.RenderTransform>
                             <TransformGroup>
                                 <ScaleTransform/>

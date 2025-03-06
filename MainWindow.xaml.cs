@@ -15,8 +15,8 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
-            ReproducirSonidoDeInicio();
             AjustarEscala();
+            SonidoManager.Instance.ReproducirSonidoDeInicio();
             LiteDbService liteDbService = new LiteDbService();
             
 
@@ -27,12 +27,7 @@ namespace WpfApp1
 
         }
 
-        private void ReproducirSonidoDeInicio()
-        {
-            SonidoManager.Instance.ReproducirMusicaDeFondo(@"D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Sounds\sonidoPrincipal.wav");
-           
-        }
-
+   
 
         private void AjustarEscala()
         {
@@ -61,7 +56,7 @@ namespace WpfApp1
 
         private void ReproducirSonidoHover()
         {
-            SonidoManager.Instance.ReproducirSonidoHover(@"D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Sounds\pasarporEncima.mp3");
+            SonidoManager.Instance.ReproducirSonidoHover("Sounds/pasarporEncima.mp3");
 
         }
 
@@ -73,6 +68,7 @@ namespace WpfApp1
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
+
             try
             {
                 Storyboard sbLogo = (Storyboard)FindResource("EscalarLogo");

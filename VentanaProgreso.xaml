@@ -5,7 +5,7 @@
     <Grid>
         <!-- Fondo de la ventana -->
         <Grid.Background>
-            <ImageBrush ImageSource="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\fondo.jpg"/>
+            <ImageBrush ImageSource="Images\Imagenes\fondo.jpg"/>
         </Grid.Background>
 
         <DataGrid x:Name="dgProgreso"
@@ -13,7 +13,7 @@
           Margin="0,44,0,0" Width="700" Height="165"
           Background="#FFF4CA44" FontSize="20"
           AutoGenerateColumns="False" HeadersVisibility="Column"
-          CanUserAddRows="False" FontFamily="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Assets\#Lazydog">
+          CanUserAddRows="False" FontFamily="Assets\#Lazydog">
 
             <DataGrid.Resources>
                 <Style TargetType="DataGridColumnHeader">
@@ -40,7 +40,7 @@
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Grid>
-                        <Image Source="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\botonEntendido.png" Margin="4,0,13,0"/>
+                        <Image Source="Images\Imagenes\botonEntendido.png" Margin="4,0,13,0"/>
                     </Grid>
                 </ControlTemplate>
             </Button.Template>

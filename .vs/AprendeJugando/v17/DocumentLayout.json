@@ -3,60 +3,8 @@
   "WorkspaceRootPath": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\pagejugar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:pagejugar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\litedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:litedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\ventanaentrada.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:ventanaentrada.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\ventanaentrada.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:ventanaentrada.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\sesionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:sesionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\sesionactual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:sesionactual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\pagejugar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:pagejugar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\pageajustes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:pageajustes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\juegocartas\\cartas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:juegocartas\\cartas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\ventanaexplicacionjc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:ventanaexplicacionjc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\ventanaexplicacionjc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:ventanaexplicacionjc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\ventananotificacion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:ventananotificacion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\ventananotificacion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:ventananotificacion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\juegocartas\\pagejuegocartas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:juegocartas\\pagejuegocartas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\ventanaprogreso.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,8 +15,44 @@
       "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:ventanaprogreso.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\ventananotificacion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:ventananotificacion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\ventanaexplicacionjc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:ventanaexplicacionjc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\ventanaexplicacionjc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:ventanaexplicacionjc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\sonidomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:sonidomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\juegocartas\\pagejuegocartas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:juegocartas\\pagejuegocartas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\juegocartas\\pagejuegocartas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:juegocartas\\pagejuegocartas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\sesionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:sesionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\sesionactual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:sesionactual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|d:\\clases\\proyecto dam\\proyecto\\aprendejugando\\juegocartas\\cartas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F1F7C02-F92E-44A7-831C-E1C6E012C341}|AprendeJugando.csproj|solutionrelative:juegocartas\\cartas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,22 +62,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PageJugar.xaml.cs",
-              "DocumentMoniker": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\PageJugar.xaml.cs",
-              "RelativeDocumentMoniker": "PageJugar.xaml.cs",
-              "ToolTip": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\PageJugar.xaml.cs",
-              "RelativeToolTip": "PageJugar.xaml.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEEAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T23:54:11.739Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -103,24 +73,43 @@
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VentanaProgreso.xaml",
+              "DocumentMoniker": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\VentanaProgreso.xaml",
+              "RelativeDocumentMoniker": "VentanaProgreso.xaml",
+              "ToolTip": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\VentanaProgreso.xaml",
+              "RelativeToolTip": "VentanaProgreso.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-06T15:44:25.27Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "PageAjustes.xaml.cs",
-              "DocumentMoniker": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\PageAjustes.xaml.cs",
-              "RelativeDocumentMoniker": "PageAjustes.xaml.cs",
-              "ToolTip": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\PageAjustes.xaml.cs",
-              "RelativeToolTip": "PageAjustes.xaml.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAAwC0AAAAfAAAAAAAAAA==",
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACwAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T16:08:24.96Z"
+              "WhenOpened": "2025-03-06T15:07:59.191Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
+              "Title": "SonidoManager.cs",
+              "DocumentMoniker": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\SonidoManager.cs",
+              "RelativeDocumentMoniker": "SonidoManager.cs",
+              "ToolTip": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\SonidoManager.cs",
+              "RelativeToolTip": "SonidoManager.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wE8AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T12:33:33.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "VentanaExplicacionJC.xaml",
               "DocumentMoniker": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\VentanaExplicacionJC.xaml",
               "RelativeDocumentMoniker": "VentanaExplicacionJC.xaml",
@@ -131,31 +120,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "VentanaExplicacionJC.xaml.cs",
               "DocumentMoniker": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\VentanaExplicacionJC.xaml.cs",
               "RelativeDocumentMoniker": "VentanaExplicacionJC.xaml.cs",
               "ToolTip": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\VentanaExplicacionJC.xaml.cs",
               "RelativeToolTip": "VentanaExplicacionJC.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T01:07:34.174Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "VentanaNotificacion.xaml.cs",
               "DocumentMoniker": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\VentanaNotificacion.xaml.cs",
               "RelativeDocumentMoniker": "VentanaNotificacion.xaml.cs",
               "ToolTip": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\VentanaNotificacion.xaml.cs",
               "RelativeToolTip": "VentanaNotificacion.xaml.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowDoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCMAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T00:37:54.563Z"
+              "WhenOpened": "2025-03-04T00:37:54.563Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "VentanaNotificacion.xaml",
               "DocumentMoniker": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\VentanaNotificacion.xaml",
               "RelativeDocumentMoniker": "VentanaNotificacion.xaml",
@@ -166,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "SesionService.cs",
               "DocumentMoniker": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\SesionService.cs",
               "RelativeDocumentMoniker": "SesionService.cs",
@@ -178,30 +168,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 1,
               "Title": "VentanaProgreso.xaml.cs",
               "DocumentMoniker": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\VentanaProgreso.xaml.cs",
               "RelativeDocumentMoniker": "VentanaProgreso.xaml.cs",
               "ToolTip": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\VentanaProgreso.xaml.cs",
               "RelativeToolTip": "VentanaProgreso.xaml.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBkAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T13:03:53.919Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "VentanaProgreso.xaml",
-              "DocumentMoniker": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\VentanaProgreso.xaml",
-              "RelativeDocumentMoniker": "VentanaProgreso.xaml",
-              "ToolTip": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\VentanaProgreso.xaml",
-              "RelativeToolTip": "VentanaProgreso.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-03T12:57:25.257Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "SesionActual.cs",
               "DocumentMoniker": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\SesionActual.cs",
               "RelativeDocumentMoniker": "SesionActual.cs",
@@ -213,19 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LiteDbService.cs",
-              "DocumentMoniker": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\LiteDbService.cs",
-              "RelativeDocumentMoniker": "LiteDbService.cs",
-              "ToolTip": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\LiteDbService.cs",
-              "RelativeToolTip": "LiteDbService.cs",
-              "ViewState": "AgIAAKgAAAAAAAAAAAA/wKEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T00:59:16.168Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Cartas.cs",
               "DocumentMoniker": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\JuegoCartas\\Cartas.cs",
               "RelativeDocumentMoniker": "JuegoCartas\\Cartas.cs",
@@ -237,19 +204,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
               "Title": "PageJuegoCartas.xaml.cs",
               "DocumentMoniker": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\JuegoCartas\\PageJuegoCartas.xaml.cs",
               "RelativeDocumentMoniker": "JuegoCartas\\PageJuegoCartas.xaml.cs",
               "ToolTip": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\JuegoCartas\\PageJuegoCartas.xaml.cs",
               "RelativeToolTip": "JuegoCartas\\PageJuegoCartas.xaml.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAswFkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwDUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T18:06:36.784Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 9,
               "Title": "PageJuegoCartas.xaml",
               "DocumentMoniker": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\JuegoCartas\\PageJuegoCartas.xaml",
               "RelativeDocumentMoniker": "JuegoCartas\\PageJuegoCartas.xaml",
@@ -257,40 +224,6 @@
               "RelativeToolTip": "JuegoCartas\\PageJuegoCartas.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-27T18:02:52.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VentanaEntrada.xaml.cs",
-              "DocumentMoniker": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\VentanaEntrada.xaml.cs",
-              "RelativeDocumentMoniker": "VentanaEntrada.xaml.cs",
-              "ToolTip": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\VentanaEntrada.xaml.cs",
-              "RelativeToolTip": "VentanaEntrada.xaml.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAYwFUAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T09:38:33.964Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VentanaEntrada.xaml",
-              "DocumentMoniker": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\VentanaEntrada.xaml",
-              "RelativeDocumentMoniker": "VentanaEntrada.xaml",
-              "ToolTip": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\VentanaEntrada.xaml",
-              "RelativeToolTip": "VentanaEntrada.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-27T09:38:21.497Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PageJugar.xaml",
-              "DocumentMoniker": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\PageJugar.xaml",
-              "RelativeDocumentMoniker": "PageJugar.xaml",
-              "ToolTip": "D:\\CLASES\\PROYECTO DAM\\Proyecto\\AprendeJugando\\PageJugar.xaml",
-              "RelativeToolTip": "PageJugar.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-26T11:38:37.969Z"
             }
           ]
         }
