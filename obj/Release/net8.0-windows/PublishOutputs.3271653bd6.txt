@@ -1,0 +1,9 @@
+D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\bin\Release\net8.0-windows\publish\AprendeJugando.exe
+D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\bin\Release\net8.0-windows\publish\AprendeJugando.dll
+D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\bin\Release\net8.0-windows\publish\AprendeJugando.deps.json
+D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\bin\Release\net8.0-windows\publish\AprendeJugando.runtimeconfig.json
+D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\bin\Release\net8.0-windows\publish\AprendeJugando.pdb
+D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\bin\Release\net8.0-windows\publish\LiteDB.dll
+D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\bin\Release\net8.0-windows\publish\MaterialDesignColors.dll
+D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\bin\Release\net8.0-windows\publish\MaterialDesignThemes.Wpf.dll
+D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\bin\Release\net8.0-windows\publish\Microsoft.Xaml.Behaviors.dll

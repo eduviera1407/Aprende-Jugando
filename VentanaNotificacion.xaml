@@ -1,0 +1,38 @@
+﻿<Window x:Class="AprendeJugando.VentanaNotificacion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AprendeJugando"
+        mc:Ignorable="d"
+        Title="VentanaNotificacion" Height="450" Width="800">
+    <Grid>
+
+        <!-- Fondo de la ventana -->
+        <Grid.Background>
+            <ImageBrush ImageSource="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\fondo.jpg"/>
+        </Grid.Background>
+        <!-- Texto de la notificación -->
+        <Image Source="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\ExplicacionJuegos.png" HorizontalAlignment="Center" Canvas.Left="93" VerticalAlignment="Top" Margin="0,18,0,0" Height="424" Width="470"/>
+        <TextBlock x:Name="txtNotificacion" FontSize="25" FontWeight="Bold" FontFamily="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Assets\#Lazydog"
+               Foreground="Black" TextAlignment="Center" 
+               HorizontalAlignment="Left" VerticalAlignment="Top" Margin="257,168,0,0" Width="296" Height="124"
+               ><Run Language="es-es"/></TextBlock>
+        <!-- Botón de volver -->
+        <Button Width="228" Height="178" Background="Transparent" BorderThickness="0"
+                HorizontalAlignment="Left" VerticalAlignment="Top"
+                ToolTip="Volver a la pantalla principal" Click="BtnVolver_Click" Canvas.Left="262" Canvas.Top="284" Margin="0,141,0,0">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image Source="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\botonEntendido.png" Margin="4,0,13,0"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <!-- Imagen del personaje -->
+        <Image x:Name="personajeSonriente" Height="235" Width="251"
+               HorizontalAlignment="Right" VerticalAlignment="Bottom"
+               Source="D:\CLASES\PROYECTO DAM\Proyecto\AprendeJugando\Images\Imagenes\Personaje\alegre.png" Canvas.Left="422" Canvas.Top="203" Margin="0,0,107,-18"/>
+    </Grid>
+</Window>
