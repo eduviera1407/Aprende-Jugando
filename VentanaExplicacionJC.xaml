@@ -41,7 +41,7 @@
                 <Button.Template>
                     <ControlTemplate TargetType="Button">
                         <Grid>
-                            <Image Source="AprendeJugando\Images\Imagenes\botonEntendido.png" Margin="4,0,13,0"/>
+                            <Image Source="Images\Imagenes\botonEntendido.png" Margin="4,0,13,0"/>
                         </Grid>
                     </ControlTemplate>
                 </Button.Template>
